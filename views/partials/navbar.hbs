@@ -1,0 +1,19 @@
+<header>
+        <div id="mySidenav" class="sidenav">
+            <a href="/" id="home">Home</a>
+            <a href="https://akdavis83.github.io/AD/prayer.html" id="prayer">Prayer</a>
+            <a href="https://akdavis83.github.io/ADMin/devo1-24.html" id="blog">Blog</a>
+            <a href="https://akdavis83.github.io/AD/" id="water">Water</a>
+            <a href="https://akdavis83.github.io/ADMin/" id="fire">Fire</a>
+            <a href="/login" id="store">Login</a>
+            <a href="/testimony" id="testimony">Story</a>
+          </div>
+       {{#if isLoggedIn}}
+        <a class="btn10" href="/logout">Logout</a>
+        <a class="btn10" href="/store">Store</a>
+        {{else}}
+        <a class="btn10" href="/login">Login</a>
+        <a class="btn10" href="/register">Register</a>
+        {{/if}}
+      </ul>
+</header>

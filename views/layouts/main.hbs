@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{docTitle}}</title>
+  <link href="/css/css.css" type="text/css" rel="stylesheet">
+  {{!-- <link rel='shortcut icon' type='image/x-icon' href='/images/favicon.png' /> --}}
+</head>
+
+<body>
+  <div class="container">
+    {{>navbar}}
+    {{#if errorMessage}}
+    <div id="notifications">
+      <p id="notification-message"> {{errorMessage}}</p>
+    </div>
+    {{/if}}
+    <main>
+        {{{body}}}
+    </main>
+  </div>
+    {{>footer}}
+</body>
+
+</html>
