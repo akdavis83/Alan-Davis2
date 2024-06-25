@@ -1,0 +1,286 @@
+repo_name: akdavis83/Alan-Davis2
+report_id: 9fd46359c169210c9601eb8e7e634e0d
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-25T05:04:28+00:00'
+requested_by: akdavis83
+provider: github
+branch: main
+detected_tools_count: 21
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: 6.7.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 8.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2
+  detection_source: Repo Metadata
+- name: Puppeteer
+  description: Headless Chrome Node API
+  website_url: https://github.com/GoogleChrome/puppeteer
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7553/puppeteer.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: bcryptjs
+  description: Optimized bcrypt in plain JavaScript with zero dependencies
+  package_url: https://www.npmjs.com/bcryptjs
+  version: 2.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: colors
+  description: Get colors in your node.js console
+  package_url: https://www.npmjs.com/colors
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: connect-flash
+  description: Flash message middleware for Connect
+  package_url: https://www.npmjs.com/connect-flash
+  version: 0.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17693/default_148ef251371a47f69a7acad9f3b25e2ec2ee4aa4.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: cookie-session
+  description: Cookie session middleware
+  package_url: https://www.npmjs.com/cookie-session
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17669/default_4ba4cce198b4498f328ca26971f69b03cf49892a.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: express-handlebars
+  description: A Handlebars view engine for Express which doesn't suck
+  package_url: https://www.npmjs.com/express-handlebars
+  version: 7.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17718/default_7ff152b9bcf219fad0d56c78a016d5bad6a2a526.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: express-validator
+  description: Express middleware for the validator module
+  package_url: https://www.npmjs.com/express-validator
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17906/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/akdavis83/Alan-Davis2/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: akdavis83
+  last_updated_on: 2024-06-04 02:44:51.000000000 Z
